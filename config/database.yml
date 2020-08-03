@@ -51,4 +51,4 @@ production:
   <<: *default
   database: growool_production
   username: growool
-  password: <%= ENV['GROWOOL_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
